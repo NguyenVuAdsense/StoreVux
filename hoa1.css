@@ -1,0 +1,120 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row img {
+    margin: auto;
+    margin-left: -500px; /* Điều chỉnh giá trị này để di chuyển sang bên trái */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: wheat;
+  }
+  
+ /* Thiết lập layout cho phần chính */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Product image styles */
+.product-image {
+  margin-right: 20px;
+}
+
+/* Product info styles */
+.product-info {
+  max-width: 400px;
+}
+
+.product-info h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p.description {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.product-info ul.specs {
+  margin-bottom: 20px;
+}
+
+.product-info ul.specs li {
+  margin-bottom: 10px;
+}
+
+.product-info .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-info .price-value {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.product-info form {
+  display: flex;
+  align-items: center;
+}
+
+.product-info label {
+  margin-right: 5px;
+}
+
+.product-info input[type="number"] {
+  width: 50px;
+  padding: 5px;
+}
+
+/* Reviews styles */
+.product-info .reviews h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-info .reviews ul {
+  list-style-type: none;
+}
+
+.product-info .reviews li {
+  margin-bottom: 10px;
+}
+
+.product-info .reviews .reviewer {
+  font-weight: bold;
+}
+
+.product-info .reviews .review-text {
+  margin-top: 5px;
+}
+
+.product-info .reviews a {
+  display: inline-block;
+  margin-top: 10px;
+}
